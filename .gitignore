@@ -1,0 +1,11 @@
+# PyCharm
+.idea/*
+
+# Exported data
+downloads
+
+# Token related
+zsxq/settings.py
+
+# cache
+__pycache__

@@ -1,0 +1,3 @@
+scrapy==2.4.1
+selenium==3.141.0
+Pillow==8.1.2
