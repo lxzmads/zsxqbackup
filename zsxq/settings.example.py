@@ -54,8 +54,9 @@ DEFAULT_REQUEST_HEADERS = {
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'zsxq.middlewares.AuthorizationMiddleware': 543,
-    'zsxq.middlewares.ConvertToZsxqApiResponseMiddleware': 544,
-    'zsxq.middlewares.HttpHostCheckMiddleware': 545,
+    'zsxq.middlewares.ZSXQRetryMiddleware': 544,
+    'zsxq.middlewares.ConvertToZsxqApiResponseMiddleware': 545,
+    'zsxq.middlewares.HttpHostCheckMiddleware': 546,
 }
 
 # Enable or disable extensions
